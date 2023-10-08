@@ -1,12 +1,15 @@
 <a href="#" class="card-container">
     <img 
         class="card-container-img"
-        src="assets/bt-5.jpg"
+        [src]=[gameCover]
         alt=""
         srcset="">
         <app-card-label 
-        gameLabel="Exclusive"
+        gameLabel="{{ gameLabel }}"
         >
         </app-card-label>
-        <app-card-pricing></app-card-pricing>
+        <app-card-pricing
+        consolePlatform="{{ consolePlatform }}"
+        gamePrice="{{ gamePrice }}"
+        ></app-card-pricing>
 </a>
