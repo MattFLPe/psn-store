@@ -18,8 +18,9 @@
 
 .menu-bar-items {
     display: flex;
-    margin: auto;
+    margin-left: 20px;
     align-items: center;
+    font-family: 'Segoe UI';
 }
 
 .menu-bar-items > ul {
